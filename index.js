@@ -4,5 +4,7 @@ setInterval(()=>{
 
   //B
   function RandomBlue(){
-  	
-  }
+
+   var blue = math.round(math.random()*255)
+   return "rgb(100,100,"+blue+")";
+}
